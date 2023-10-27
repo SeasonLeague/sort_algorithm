@@ -1,4 +1,5 @@
-# Sorting Algorithm in Python and JavaSCript
+# Sorting Algorithm in Python and JavaScript
+**(Although the JavaScript implementation is still in view, I need to finish the python version first, thank you!)**
 ## What actually is sorting?
 **Sorting** is like arranging a set of items, such as numbers or words, in a specific order, like from smallest to largest. 
 
