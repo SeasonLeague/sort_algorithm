@@ -2,6 +2,7 @@
 ## What actually is sorting?
 **Sorting** is like arranging a set of items, such as numbers or words, in a specific order, like from smallest to largest. 
 
+# BUBBLE SORTING
 In Python, we have different ways to do this. The first method I'll introduce is the **Bubble Sort**
 
 **Bubble Sort** is one of the simplest sorting algorithms. Bubble Sort is straightforward, but it may not be the most efficient sorting algorithm for large lists. Here are some key points to understand:
@@ -20,3 +21,12 @@ So imagine you have a list of numbers, and you want to arrange them in order. He
 * We compare the first two numbers. If the first one is larger than the second, we swap them.
 * We continue this process, comparing and swapping adjacent numbers, moving from the start to the end of the list.
 * We repeat this process several times until the list is completely sorted.
+---
+---
+# SELECTION SORTING
+**Selection Sorting** works by dividing the list into two parts: the *sorted part* and the *unsorted part*. The sorted part starts as an empty list, and the algorithm repeatedly selects the smallest (or largest) element from the unsorted part and moves it to the sorted part. **Here's how it works step by step:**
+
+* Find the minimum (or maximum) element in the unsorted part of the list.
+* Swap it with the leftmost element of the unsorted part, which becomes the last element in the sorted part.
+* Move the boundary between the sorted and unsorted parts one element to the right.
+* Repeat these steps until the entire list is sorted.
